@@ -44,10 +44,10 @@ print(f"sd.iloc[12] -> {sd.iloc[12]}")
 
 print("-------------")
 
-print(f"sd.ploc['==2, ==3'] -> {sd.ploc['==2, ==3']}")
+print(f"sd.ploc['==2.0, ==3'] -> {sd.ploc['==2.0, ==3']}")
 print(f"sd.ploc['==2 &&$         ==3'] -> {sd.ploc['==2 &&$         ==3']}")
 print(f"sd.ploc['>1, <=7'] -> {sd.ploc['>1, <=7']}")
 print(f"sd.ploc['==5, <>7, >=3'] -> {sd.ploc['==5, <>7, >=3']}")
 print(f"sd.ploc['==1, <2, >=1, >=1'] -> {sd.ploc['==1, <2, >=1, >=1']}")
 
-print(f"sd.ploc['<>2, <>3'].ploc['<>3, <10'] -> {sd.ploc['<>2, <>3'].ploc['<>3, <10']}")
+print(f"sd.ploc['<>2, <>3'].ploc['<>3, <10.0'] -> {sd.ploc['<>2, <>3'].ploc['<>3, <10.0']}")
